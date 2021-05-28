@@ -1,6 +1,7 @@
 html,
 body {
   box-sizing: border-box;
+  overflow: auto;
 }
 
 *,
@@ -12,3 +13,23 @@ body {
 body {
   background: skyblue;
 }
+
+.exercise-1 {
+  border: 5px solid black;
+  background: seashell;
+  padding: 1em;
+  block-size: 200px;
+  inline-size: 300px;
+overflow: auto;
+}
+
+.exercise-2 {
+  border: 5px solid black;
+  block-size: 200px;
+  inline-size: 300px;
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bloemenpanorama_Maurice_van_Bruggen.jpg/330px-Bloemenpanorama_Maurice_van_Bruggen.jpg);
+  background-size: cover; */
+overflow: hidden;
+}
+    
+    
